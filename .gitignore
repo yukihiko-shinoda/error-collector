@@ -1,0 +1,4 @@
+.coverage
+.idea
+.mypy_cache
+errorcollector.egg-info
