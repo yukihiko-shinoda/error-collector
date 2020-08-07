@@ -1,14 +1,16 @@
 """Tests for error_collector.py"""
-from errorcollector.error_collector import SingleErrorCollector, MultipleErrorCollector
+from errorcollector.error_collector import MultipleErrorCollector, SingleErrorCollector
 from tests.testlibraries.error_checker import ErrorChecker
 from tests.testlibraries.exceptions import ErrorForTestFrom1, ErrorForTestFrom2, ErrorForTestTo
 
 
 class TestSingleErrorCollector:
     """Tests for Single Error Collector."""
-    def test(self):
+
+    @staticmethod
+    def test():
         """should"""
-        error_message = 'test'
+        error_message = "test"
         error_collector = SingleErrorCollector(ErrorForTestTo, error_message)
         with error_collector:
             raise ErrorForTestFrom1()
@@ -18,9 +20,11 @@ class TestSingleErrorCollector:
 
 class TestMultipleErrorCollector:
     """Tests for Multiple Error Collector."""
-    def test(self):
+
+    @staticmethod
+    def test():
         """should"""
-        error_message = 'test'
+        error_message = "test"
         error_collector = MultipleErrorCollector(ErrorForTestTo, error_message, [])
         with error_collector:
             raise ErrorForTestFrom1()
@@ -31,9 +35,10 @@ class TestMultipleErrorCollector:
         ErrorChecker.assert_error(list_error[0], error_message, ErrorForTestTo, ErrorForTestFrom1)
         ErrorChecker.assert_error(list_error[1], error_message, ErrorForTestTo, ErrorForTestFrom2)
 
-    def test_no_error(self):
+    @staticmethod
+    def test_no_error():
         """should"""
-        error_message = 'test'
+        error_message = "test"
         error_collector = MultipleErrorCollector(ErrorForTestTo, error_message, [])
         with error_collector:
             pass

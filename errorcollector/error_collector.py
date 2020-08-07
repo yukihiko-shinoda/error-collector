@@ -1,14 +1,14 @@
 """This module implements error collector."""
 from abc import abstractmethod
 from contextlib import ContextDecorator
-from typing import List, TypeVar, Type, Optional, Generic
+from typing import Generic, List, Optional, Type, TypeVar
 
-
-TypeVarError = TypeVar('TypeVarError', bound=Exception)
+TypeVarError = TypeVar("TypeVarError", bound=Exception)
 
 
 class ErrorCollector(ContextDecorator, Generic[TypeVarError]):
     """This class implements base methods of error collector."""
+
     def __init__(self, error_class: Type[TypeVarError], message: str):
         self.error_class = error_class
         self.message = message
@@ -32,6 +32,7 @@ class ErrorCollector(ContextDecorator, Generic[TypeVarError]):
 
 class SingleErrorCollector(ErrorCollector[TypeVarError]):
     """This class implements error collector for single error."""
+
     def __init__(self, error_class: Type[TypeVarError], message: str):
         super().__init__(error_class, message)
         self.error: Optional[TypeVarError] = None
@@ -42,6 +43,7 @@ class SingleErrorCollector(ErrorCollector[TypeVarError]):
 
 class MultipleErrorCollector(ErrorCollector):
     """This class implements error collector for multiple error."""
+
     def __init__(self, error_class: Type[TypeVarError], message: str, list_error: List[TypeVarError]):
         super().__init__(error_class, message)
         self.list_error = list_error
