@@ -22,6 +22,7 @@ def main():
         python_requires=">3.6.0",
         install_requires=[],
         dependency_links=[],
+        setup_requires=["pytest-runner"],
         url="https://github.com/yukihiko-shinoda/error-collector",
         keywords="error exception",
         classifiers=[
