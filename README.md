@@ -4,6 +4,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f954efad2003fe046369/test_coverage)](https://codeclimate.com/github/yukihiko-shinoda/error-collector/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f954efad2003fe046369/maintainability)](https://codeclimate.com/github/yukihiko-shinoda/error-collector/maintainability)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/yukihiko-shinoda/error-collector)
+[![Updates](https://pyup.io/repos/github/yukihiko-shinoda/error-collector/shield.svg)](https://pyup.io/repos/github/yukihiko-shinoda/error-collector/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/errorcollector)](https://pypi.org/project/errorcollector/)
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fyukihiko-shinoda%2Ferror-collector)](http://twitter.com/share?text=Error%20Collector&url=https://pypi.org/project/errorcollector/&hashtags=python)
 
