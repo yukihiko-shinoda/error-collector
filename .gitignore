@@ -110,5 +110,3 @@ Pipfile.lock
 # IntelliJ Idea family of suites
 .idea
 *.iml
-
-config.yml
