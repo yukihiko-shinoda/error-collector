@@ -36,7 +36,8 @@ def main():
         packages=find_packages(exclude=("tests*",)),
         package_data={"errorcollector": ["py.typed"]},
         python_requires=">=3.6.0",
-        setup_requires=["pytest-runner"],
+        test_suite="tests",
+        tests_require=["pytest>=3"],
         url="https://github.com/yukihiko-shinoda/error-collector",
         version="0.1.0",
     )
