@@ -3,6 +3,8 @@ from abc import abstractmethod
 from contextlib import ContextDecorator
 from typing import Generic, List, Optional, Type, TypeVar
 
+__all__ = ["TypeVarError", "ErrorCollector", "SingleErrorCollector", "MultipleErrorCollector"]
+
 TypeVarError = TypeVar("TypeVarError", bound=Exception)
 
 
