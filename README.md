@@ -1,3 +1,15 @@
+# DEPRECATED
+
+Use [Exception groups](https://docs.python.org/3/library/exceptions.html#exception-groups)
+
+If you are using Python 3.10 or less, use [backport](https://pypi.org/project/exceptiongroup/)
+
+```bash
+pip install exceptiongroup
+```
+
+---
+
 # Error Collector
 
 [![Test](https://github.com/yukihiko-shinoda/error-collector/workflows/Test/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions?query=workflow%3ATest)
