@@ -57,7 +57,7 @@ dev = [
 
 [project]
 name = "errorcollector"
-version = "1.0.0"
+version = "1.0.1"
 description = "This project helps you to collect raised error during with statement."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -102,7 +102,7 @@ repository = "https://github.com/yukihiko-shinoda/error-collector"
 skips = ["tests/*"]
 
 [tool.bumpversion]
-current_version = "1.0.0"
+current_version = "1.0.1"
 commit = true
 tag = true
 
