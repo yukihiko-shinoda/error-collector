@@ -1,11 +1,19 @@
 """This module implements error checker."""
 
+from __future__ import annotations
+
 
 class ErrorChecker:
     """This class implements error checker."""
 
     @staticmethod
-    def assert_error(error, error_message, error_class_to, error_class_from):
+    def assert_error(
+        error: Exception,
+        error_message: str,
+        error_class_to: type[Exception],
+        error_class_from: type[Exception],
+    ) -> None:
+        """Checks error properties."""
         # Reason: Using type() is required to check perfectly same class. pylint: disable=unidiomatic-typecheck
         assert type(error) is error_class_to
         # Reason: Using type() is required to check perfectly same class. pylint: disable=unidiomatic-typecheck
