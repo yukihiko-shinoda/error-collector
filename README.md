@@ -1,12 +1,12 @@
 # Error Collector
 
 [![Test](https://github.com/yukihiko-shinoda/error-collector/workflows/Test/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions?query=workflow%3ATest)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/f954efad2003fe046369/test_coverage)](https://codeclimate.com/github/yukihiko-shinoda/error-collector/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f954efad2003fe046369/maintainability)](https://codeclimate.com/github/yukihiko-shinoda/error-collector/maintainability)
-[![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/yukihiko-shinoda/error-collector)](https://codeclimate.com/github/yukihiko-shinoda/error-collector)
-[![Updates](https://pyup.io/repos/github/yukihiko-shinoda/error-collector/shield.svg)](https://pyup.io/repos/github/yukihiko-shinoda/error-collector/)
+[![CodeQL](https://github.com/yukihiko-shinoda/error-collector/workflows/CodeQL/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions?query=workflow%3ACodeQL)
+[![Code Coverage](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector/coverage.svg)](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector)
+[![Maintainability](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector/maintainability.svg)](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector)
+[![Dependabot](https://flat.badgen.net/github/dependabot/yukihiko-shinoda/error-collector?icon=dependabot)](https://github.com/yukihiko-shinoda/error-collector/security/dependabot)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/errorcollector)](https://pypi.org/project/errorcollector/)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fyukihiko-shinoda%2Ferror-collector)](http://twitter.com/share?text=Error%20Collector&url=https://pypi.org/project/errorcollector/&hashtags=python)
+[![X URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fyukihiko-shinoda%2Ferror-collector)](https://x.com/intent/post?text=Error%20Collector&url=https%3A%2F%2Fpypi.org%2Fproject%2Ferrorcollector%2F&hashtags=python)
 
 Collects raised error during with statement.
 

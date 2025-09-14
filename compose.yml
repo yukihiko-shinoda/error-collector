@@ -1,0 +1,17 @@
+services:
+  error-collector:
+    build:
+      args:
+        VERSION_UV: ${VERSION_UV:?err}
+        DOCKER_IMAGE_TAG_NODE: ${DOCKER_IMAGE_TAG_NODE:?err}
+        VERSION_CLAUDE_CODE: ${VERSION_CLAUDE_CODE:?err}
+      context: .
+    image: futureys/error-collector:development
+    volumes:
+      - .:/workspace
+      - /workspace/.venv
+      # - Using uv in Docker | uv
+      #   https://docs.astral.sh/uv/guides/integration/docker/#caching
+      - uv-cache:/root/.cache/uv
+volumes:
+  uv-cache:
