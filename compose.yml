@@ -1,11 +1,6 @@
 services:
   error-collector:
-    build:
-      args:
-        VERSION_UV: ${VERSION_UV:?err}
-        DOCKER_IMAGE_TAG_NODE: ${DOCKER_IMAGE_TAG_NODE:?err}
-        VERSION_CLAUDE_CODE: ${VERSION_CLAUDE_CODE:?err}
-      context: .
+    build: .
     image: futureys/error-collector:development
     volumes:
       - .:/workspace
