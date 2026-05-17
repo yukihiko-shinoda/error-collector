@@ -190,6 +190,10 @@ markers = [
 line-length = 119
 
 [tool.ruff.lint]
+external = [
+    "DUO",  # dlint
+    "H",  # Openstack/hacking
+]
 select = ["ALL"]
 ignore = [
     # lint.pydocstyle
