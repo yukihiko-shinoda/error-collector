@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020 Yukihiko Shinoda
+# SPDX-License-Identifier: MIT
 """Tests for error_collector.py."""
 
 from errorcollector.error_collector import MultipleErrorCollector
