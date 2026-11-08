@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020 Yukihiko Shinoda
+# SPDX-License-Identifier: MIT
 """Collects raised error during with statement."""
 
 from errorcollector.error_collector import *  # noqa: F403
