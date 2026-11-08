@@ -1,7 +1,7 @@
 # Error Collector
 
 [![Test](https://github.com/yukihiko-shinoda/error-collector/workflows/Test/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions?query=workflow%3ATest)
-[![CodeQL](https://github.com/yukihiko-shinoda/error-collector/workflows/CodeQL/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions?query=workflow%3ACodeQL)
+[![CodeQL](https://github.com/yukihiko-shinoda/error-collector/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/yukihiko-shinoda/error-collector/actions/workflows/github-code-scanning/codeql)
 [![Code Coverage](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector/coverage.svg)](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector)
 [![Maintainability](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector/maintainability.svg)](https://qlty.sh/gh/yukihiko-shinoda/projects/error-collector)
 [![Dependabot](https://flat.badgen.net/github/dependabot/yukihiko-shinoda/error-collector?icon=dependabot)](https://github.com/yukihiko-shinoda/error-collector/security/dependabot)
